@@ -8,15 +8,7 @@ dark2 = #122821
 
 body {
     background-color: #4F786A;
-}
-
-head, header, body, footer {
-    max-width: 750;
-}
-
-img {
-    height: 750px;
-    width: auto;
+    text-align: center;
 }
 
 header {
