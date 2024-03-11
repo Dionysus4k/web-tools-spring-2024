@@ -14,6 +14,7 @@ body {
 header {
     color: #F3F7F4;
     text-align: center;
+    padding: 2px;
 }
 
 nav > ul {
@@ -38,6 +39,26 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #F3F7F4;
+    margin: 0 auto;
+  }
+  th, td {
+    padding: 8px;
+    border: 1px solid rgb(136, 136, 136);
+    text-align: center;
+  }
+  th {
+    background-color: #dbdada;
+  }
+  caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #F3F7F4;
+
 a:link { color: #F3F7F4; } /* unvisited link */
 a:visited { color: #122821; } /* visited link */
 a:hover { color: #122821; } /* mouse over link */
@@ -52,4 +73,8 @@ footer {
 
 footer > ul {
     list-style-type: none;
+}
+
+fieldset {
+    width: 65%;
 }

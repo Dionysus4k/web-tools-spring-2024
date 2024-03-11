@@ -34,7 +34,7 @@
     <main>
         <nav>
             <ul>
-                <li><a href="#AboutMe">About Me</li></a>
+                <li><a href="index.html">About Me</li></a>
             </ul>
         </nav>
         <fieldset>
@@ -49,20 +49,77 @@
                     <label for="lastname">Last Name</label>
                     <input type="text" name="lastname" id="lastname" required>
                 </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" required>
+                </p>
                 <h3>Information Request</h3>
                 <p>
-                    What would you like to do?
+                    Would you like to receive updates about the band?
                 </p>
                 <p>
-                    <label for="contact">Contact</label>
-                    <input type="radio" name="requesttype" id="contact" value="contact">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="requesttype" id="yes" value="yes">
                     <br>
-                    <label for="receiveupdates">Receive Updates</label>
-                    <input type="radio" name="requesttype" id="receiveupdates" value="receiveupdates">
+                    <label for="no">No</label>
+                    <input type="radio" name="requesttype" id="no" value="no">
                 </p>
-                
+                <p>
+                    Receive updates for:
+                </p>
+                <p>
+                    <label for="tourdates">Tour Dates</label>
+                    <input type="checkbox" name="updates" id="tourdates" value="tourdates">
+                    <br>
+                    <label for="merchandise">Merch Release</label>
+                    <input type="checkbox" name="updates" id="merchandise" value="merchandise">
+                    <br>
+                    <label for="newmusic">New Music</label>
+                    <input type="checkbox" name="updates" id="newmusic" value="newmusic">
+                </p>
+                <p>
+                    How often would you like to receive these updates?
+                </p>
+                <p>
+                    <label for="frequency">Frequency</label>
+                    <select id="frequency" name="frequency">
+                        <option value="veryoften">Very often</option>
+                        <option value="asneeded">As needed</option>
+                        <option value="notatall">Not at all</option>
+                    </select>
+                </p>
             </form>
         </fieldset>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear form">
+        <h3>Important dates</h3>
+        <table>
+            <caption>Band Information</caption>
+            <thead>
+              <tr>
+                <th scope="col">Category</th>
+                <th scope="col">Date</th>
+                <th scope="col">Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Tour Dates</th>
+                <td>March 15, 2024</td>
+                <td>Tour Dates release</td>
+              </tr>
+              <tr>
+                <th scope="row">Merch Release</th>
+                <td>April 1, 2024</td>
+                <td>New T-shirt Designs</td>
+              </tr>
+              <tr>
+                <th scope="row">Music Release</th>
+                <td>May 10, 2024</td>
+                <td>New Album</td>
+              </tr>
+            </tbody>
+          </table>
     </main>
     
 </body>
