@@ -58,7 +58,7 @@ table {
     font-weight: bold;
     margin-bottom: 10px;
     color: #F3F7F4;
-
+  }
 a:link { color: #F3F7F4; } /* unvisited link */
 a:visited { color: #122821; } /* visited link */
 a:hover { color: #122821; } /* mouse over link */
